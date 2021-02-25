@@ -251,4 +251,12 @@ input, select, textarea{
 		padding-left: 40px;
 		padding-right: 40px;
 	}
+	.input-group .button {
+		position: relative;
+    margin: 20px auto;
+    right: unset;
+    top: unset;
+    bottom: unset;
+    display: block;
+	}
 }
