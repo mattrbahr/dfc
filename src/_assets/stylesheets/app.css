@@ -55,3 +55,175 @@ a {
 }
 
 /* purgecss end ignore */
+
+h1,h2,h3,h4,h5,h6,body {
+	font-family: 'DM Sans', sans-serif;
+	font-style: normal;
+}
+
+.max-w-screen-md {
+	max-width: 790px;
+}
+
+.bg-gray-100 {
+	background-color: #F4F6F8;
+	padding-bottom: 1px;
+}
+
+h2 {
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 69px;
+}
+
+.green-line {
+	margin-top: 174px;
+	border-top: 1px solid #1FC79A;
+	width: 319px;
+	height: 1px;
+	display: inline-block;
+	margin-bottom: 50px;
+}
+
+.green-line + h2 {
+	margin-bottom: 75px;
+}
+
+.dfc-heading, .anatomy-dfc {
+	margin-bottom: 30px;
+	padding: 0;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.dfc {
+	font-style: normal;
+	font-weight: 300;
+	font-size: 20px;
+	line-height: 175.3%;
+}
+
+.dfc-answer {
+	margin-bottom: 50px;
+}
+
+.dfc-section {
+	padding-bottom: 100px;
+}
+
+.dfc-traits {
+	margin-bottom: 28px;
+	font-style: normal;
+	font-weight: 900;
+	font-size: 30px;
+	line-height: 35px;
+}
+
+.dt {
+	display: list-item;
+	font-weight: 700;
+	font-style: normal;
+	font-size: 22px;
+	line-height: 175.3%;
+	list-style-type: disc;
+}
+
+.dd {
+	display: block;
+	margin-bottom: 30px;
+	font-size: 20px;
+	line-height: 175.3%;
+}
+
+.margin-zero {
+	margin-bottom: 0;
+}
+
+::marker {
+  color: #1FC79A;
+}
+
+li {
+	list-style: none;
+}
+
+.dark-grey {
+	background: #2B3242;
+	color: #fff;
+}
+
+.dark-grey {
+	padding: 100px 0;
+}
+
+.dark-grey li {
+	list-style: disc;
+	font-weight: 400;
+	font-size: 20px;
+	line-height: 175.3%;
+	margin-left: 20px;
+}
+
+.dark-grey li::marker {
+	font-size: 20px;
+}
+
+.bg-green {
+	background: #1FC79A;
+	color: #fff;
+	padding: 100px 0 117px;
+}
+
+.fp-heading {
+	font-style: normal;
+	font-weight: 700;
+	font-size: 60px;
+	line-height: 69px;
+	margin-bottom: 30px;
+}
+
+.fp-text {
+	font-style: normal;
+    font-weight: 300;
+    font-size: 20px;
+    line-height: 175.3%;
+		margin-bottom: 30px;
+}
+
+.input-group {
+	width: 893px;
+	height: 80px;
+	position: relative;
+}
+
+.input-group input {
+	height: 100%;
+	width: 100%;
+	padding: 23px 30px;
+}
+
+.input-group .button {
+	width: 154px;
+	height: 60px;
+	background: #2B3242;
+	border-radius: 3px;
+	color: #fff;
+	position: absolute;
+	right: 10px;
+	top:10px;
+	bottom: 10px;
+}
+
+input::placeholder, textarea::placeholder {
+	color: #2B3242;
+}
+
+input:focus, textarea:focus {
+	color: #2B3242;
+}
+
+input, select, textarea{
+	color: #2B3242;
+}

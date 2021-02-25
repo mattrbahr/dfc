@@ -3,16 +3,17 @@ layout: base.njk
 title: Minimal boilerplate for new projects built with Eleventy, Tailwind and PostCSS
 ---
 
-<section class="py-20 bg-gray-50">
-    <div class="max-w-5xl mx-auto py-5">
-      <div class="text-center mb-6">
+<section class="bg-gray-100">
+    <div class="max-w-screen-md mx-auto">
+      <div class="text-left">
         <!-- 
             <span class="text-base md:text-lg">
               <a class="text-blue-500 hover:underline" href="#">CATEGORY</a>
               <span class="text-blueGray-400">24 Jan, 2020</span>
             </span>
         -->
-        <h2 class="text-4xl md:text-5xl mt-4 font-bold font-heading">Direct-From-Consumer Marketing (DFC): Anatomy Of a Future-proof Brand</h2>
+        <span class="green-line"></span>
+        <h2 class="text-4xl md:text-5xl font-bold font-heading">Direct-From-Consumer Marketing (DFC): <span class="text-green-500">Anatomy Of a Future-proof Brand</span> </h2>
       </div>
     </div>
 <!--
@@ -23,58 +24,92 @@ title: Minimal boilerplate for new projects built with Eleventy, Tailwind and Po
         </div>
       </div>
   -->
-    <div class="max-w-2xl mx-auto">
-    <div class="container px-4 mx-auto">
-    <h3 class="text-3xl md:text-3xl mt-4 font-bold font-heading py-3">What Is Direct-From-Consumer (DFC)?</h3>
-          <p class="mb-6 leading-loose text-blueGray-400">Third party cookies have crumbled. The IDFA is DOA. GDPR stopped being generous. In just a few short years, marketers have seen the tables turn nearly 180° -- from an age where black box data ran amok and digital fingerprints littered the web, to a point where consumers emerged victorious in a quest to have their cake and eat it too. The cake is data privacy protections… and the eating? Well, that’s the ever-increasing demand for personalization and engagement, in spite of all the newly-crippled marketing models.</p>
-          <p class="leading-loose text-blueGray-400">But, marketers always find a way -- and the way ahead is zero-party data (ZPD), willingly offered up by conscious consumers. Of course, the very term ZPD diminishes the consumer, exposing its negligence to the foundations of consumer-centric marketing and sending us down the same dead-end path. No; if our industry’s going to do this, let’s do it right. Let’s respect the importance of the consumer relationship from the start. Let’s call this new era of data Direct-From-Consumer, or DFC.</p>
-    <h3 class="text-3xl md:text-3xl mt-4 font-bold font-heading py-3">The Defining Traits Of DFC</h3>
-        <ol class="list-inside list-decimal mb-6 leading-loose text-blueGray-400">
-            <li>Participatory. The consumer willingly offers their data to a brand in exchange for value.</li>
-            <li>Transparent. The consumer knows why a brand wants a data point, and how it will be used. They know this not because they scoured the Terms Of Service, but because the brand clearly communicated their intent within the user experience.</li>
-            <li>Non-judgmental. DFC marketers don’t buy shady demographic data for pennies and then stereotype their customers. They let the customers self-identify.</li>
-            <li>Reciprocating. The user experience, and the brand at large, considers where, how, and why the consumer would want to offer their data, and how that exchange of value can yield trust, not just transactions.</li>
-            <li>Accessible. The consumer trusts a brand in part because they know what data the brand has about them, how they can update it, and how they can take it with them if the need ever arises.</li>
-        </ol>
-    <h3 class="text-3xl md:text-3xl mt-4 font-bold font-heading py-3">Anatomy Of A DFC-Powered Brand</h3>
-            <p class="mb-6 leading-loose text-blueGray-400">Necessity is the mother of invention, and as direct-to-consumer brands found the traditional retailer model to be a recipe for disaster, they developed a mastery of the DFC data approach.</p>
+    <div class="max-w-screen-md mx-auto dfc-section">
+    <div class="container mx-auto">
+    <h3 class="text-3xl md:text-3xl font-bold font-heading py-3 dfc-heading">What Is Direct-From-Consumer (DFC)?</h3>
+          <p class="mb-6 leading-loose text-blueGray-400 dfc">Third party cookies have crumbled. The IDFA is DOA. GDPR stopped being generous. In just a few short years, marketers have seen the tables turn nearly 180° -- from an age where black box data ran amok and digital fingerprints littered the web, to a point where consumers emerged victorious in a quest to have their cake and eat it too. The cake is data privacy protections… and the eating? Well, that’s the ever-increasing demand for personalization and engagement, in spite of all the newly-crippled marketing models.</p>
+          <p class="leading-loose text-blueGray-400 dfc dfc-answer">But, marketers always find a way -- and the way ahead is zero-party data (ZPD), willingly offered up by conscious consumers. Of course, the very term ZPD diminishes the consumer, exposing its negligence to the foundations of consumer-centric marketing and sending us down the same dead-end path. No; if our industry’s going to do this, let’s do it right. Let’s respect the importance of the consumer relationship from the start. Let’s call this new era of data Direct-From-Consumer, or DFC.</p>
+    <h3 class="text-3xl md:text-3xl mt-4 font-bold font-heading dfc-traits">The Defining Traits Of DFC</h3>
+        <ul class="list-inside list-disc leading-loose text-blueGray-400">
+            <li>
+                <span class="dt">Participatory.</span>
+                <span class="dd">The consumer willingly offers their data to a brand in exchange for value.</span>
+            </li>
+            <li>
+                <span class="dt">Transparent. </span>
+                <span class="dd">The consumer knows why a brand wants a data point, and how it will be used. They know this not because they scoured the Terms Of Service, but because the brand clearly communicated their intent within the user experience.</span>
+            </li>
+            <li>
+                <span class="dt">Non-judgmental. </span>
+                <span class="dd">DFC marketers don’t buy shady demographic data for pennies and then stereotype their customers. They let the customers self-identify.</span>
+            </li>
+            <li>
+                <span class="dt">Reciprocating. </span>
+                <span class="dd">The user experience, and the brand at large, considers where, how, and why the consumer would want to offer their data, and how that exchange of value can yield trust, not just transactions.</span>
+            </li>
+            <li>
+                <span class="dt">Accessible. </span>
+                <span class="dd margin-zero">The consumer trusts a brand in part because they know what data the brand has about them, how they can update it, and how they can take it with them if the need ever arises.</span>
+            </li>                                    
+        </ul>
+        </div>
+    </div>
+</section>
 
-            <p class="mb-6 leading-loose text-blueGray-400">Here are a few of the tactics in their toolboxes: (we can treat this graphically rather than just listing them out in copy)</p>
-                <ol class="list-inside list-disc mb-6 leading-loose text-blueGray-400">
-                    <li>Communities, both in-house and platform-based</li>
-                    <li>Feedback loops from customer support</li>
-                    <li>Preference, experience and personalization surveys</li>
-                    <li>Brand advocacy development</li>
-                    <li>Events, programs & prizes</li>
-                    <li>Invitations to participate in product testing</li>
-                </ol>
 
-            <p class="mb-6 leading-loose text-blueGray-400">Here’s an abbreviated list of what they get in return:</p>
-                <ol class="list-inside list-disc mb-6 leading-loose text-blueGray-400">
-                    <li>Purchase intent & history</li>
-                    <li>Demographic data</li>
-                    <li>Psychographic data</li>
-                    <li>Product preferences</li>
-                    <li>Reviews & ratings</li>
-                    <li>Crowdsourced product & brand development</li>
-                    <li>Word of mouth referrals</li>
-                </ol>
-            <p class="mb-6 leading-loose text-blueGray-400">
-                Of course, the most valuable asset brands get in return for honoring the DFC principles is: trust. It’s the next-gen currency for brands, because you don’t build relationships on ROAS.
-            </p>
-            <p class="mb-6 leading-loose text-blueGray-400">
-                Brands that know their customers better than their competitors will triumph. And so, as you watch dubious third party data deteriorate over the coming months, and watch it fall off a cliff after the conversion is complete, the question must be asked:
-            </p>
-            <p class="mb-6 leading-loose text-blueGray-400">
-                Do you know your customers better than your competitors do?
-            </p>
-        <h3 class="text-3xl md:text-3xl mt-4 font-bold font-heading py-3">Are You Future-proof?</h3>
+<section class="dark-grey">
+    <div class="max-w-screen-md mx-auto">
+        <h3 class="text-3xl md:text-3xl font-bold font-heading anatomy-dfc">Anatomy Of A DFC-Powered Brand</h3>
+        <p class="mb-6 leading-loose text-blueGray-400 dfc">Necessity is the mother of invention, and as direct-to-consumer brands found the traditional retailer model to be a recipe for disaster, they developed a mastery of the DFC data approach.</p>
 
-            <p class="mb-6 leading-loose text-blueGray-400">
-                Can your brand build its empire on Direct-From-Consumer data today, or are department heads bound to roll? Take our DFC Readiness Score to find out. And yes, this is an example of DFC data. Good eye -- perhaps there’s hope for your brand after all.
-            </p>
+        <p class="mb-6 leading-loose text-blueGray-400 dfc">Here are a few of the tactics in their toolboxes: (we can treat this graphically rather than just listing them out in copy)</p>
+            <ul class="list-inside mb-6 leading-loose text-blueGray-400">
+                <li>Communities, both in-house and platform-based</li>
+                <li>Feedback loops from customer support</li>
+                <li>Preference, experience and personalization surveys</li>
+                <li>Brand advocacy development</li>
+                <li>Events, programs & prizes</li>
+                <li>Invitations to participate in product testing</li>
+            </ul>
 
+        <p class="mb-6 leading-loose text-blueGray-400 dfc">Here’s an abbreviated list of what they get in return:</p>
+            <ul class="list-inside mb-6 leading-loose text-blueGray-400 ">
+                <li>Purchase intent & history</li>
+                <li>Demographic data</li>
+                <li>Psychographic data</li>
+                <li>Product preferences</li>
+                <li>Reviews & ratings</li>
+                <li>Crowdsourced product & brand development</li>
+                <li>Word of mouth referrals</li>
+            </ul>
+        <p class="mb-6 leading-loose text-blueGray-400 dfc">
+            Of course, the most valuable asset brands get in return for honoring the DFC principles is: trust. It’s the next-gen currency for brands, because you don’t build relationships on ROAS.
+        </p>
+        <p class="mb-6 leading-loose text-blueGray-400 dfc">
+            Brands that know their customers better than their competitors will triumph. And so, as you watch dubious third party data deteriorate over the coming months, and watch it fall off a cliff after the conversion is complete, the question must be asked:
+        </p>
+        <p class="mb-6 leading-loose text-blueGray-400 dfc">
+            Do you know your customers better than your competitors do?
+        </p>
 
     </div>
-  </div>
 </section>
+
+<section class="bg-green">
+    <div class="max-w-screen-md mx-auto">
+        <h3 class="font-heading fp-heading">Are You Future-proof?</h3>
+
+        <p class="leading-loose text-blueGray-400 fp-text">
+            Can your brand build its empire on Direct-From-Consumer data today, or are department heads bound to roll? Take our DFC Readiness Score to find out. And yes, this is an example of DFC data. Good eye -- perhaps there’s hope for your brand after all.
+        </p>
+        <div class="input-group mx-auto">
+            <input type="text" class="form-control" placeholder="Email Address" aria-label="Email Address" aria-describedby="button-addon">
+            <button class="button" type="button" id="button-addon">Button</button>
+        </div>
+    </div>
+</section>
+
+
+
+
+
